@@ -27,7 +27,7 @@
 <!ELEMENT EncoderProfile (Video, Audio)>
 <!ATTLIST EncoderProfile quality (low|high|qcif|qvga|720p|timelapselow|timelapsehigh|timelapseqcif|timelapseqvga|timelapse720p) #REQUIRED>
 <!ATTLIST EncoderProfile fileFormat (mp4|3gp) #REQUIRED>
-<!ATTLIST EncoderProfile duration (24|30|60) #REQUIRED>
+<!ATTLIST EncoderProfile duration (30|60) #REQUIRED>
 <!ATTLIST EncoderProfile cameraId (0|1) #REQUIRED>
 <!ELEMENT Video EMPTY>
 <!ATTLIST Video codec (h264|h263|m4v) #REQUIRED>
@@ -286,12 +286,12 @@
     <!-- Front Camera -->
     <CamcorderProfiles cameraId="1" startOffsetMs="700">
 
-    <EncoderProfile quality="low" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="low" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="384000"
              width="176"
              height="144"
-             frameRate="24" />
+             frameRate="30" />
 
       <Audio codec="aac"
              bitRate="128000"
@@ -299,12 +299,12 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="high" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="high" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="3078000"
              width="640"
              height="480"
-             frameRate="24" />
+             frameRate="30" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -312,12 +312,12 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="qcif" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="qcif" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="384000"
              width="176"
              height="144"
-             frameRate="24" />
+             frameRate="30" />
 
       <Audio codec="aac"
              bitRate="128000"
@@ -325,12 +325,12 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="qvga" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="qvga" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="767000"
              width="320"
              height="240"
-             frameRate="24" />
+             frameRate="30" />
 
       <Audio codec="aac"
              bitRate="128000"
@@ -338,12 +338,12 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="480p" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="480p" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="3078000"
              width="640"
              height="480"
-             frameRate="24" />
+             frameRate="30" />
 
       <Audio codec="aac"
              bitRate="256000"
@@ -351,12 +351,12 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="timelapselow" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="384000"
              width="176"
              height="144"
-             frameRate="24" />
+             frameRate="30" />
 
       <!--
             The Audio part of the profile will not be used since time lapse mode
@@ -368,12 +368,12 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapsehigh" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="timelapsehigh" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="3078000"
              width="640"
              height="480"
-             frameRate="24" />
+             frameRate="30" />
 
        <!--
              The Audio part of the profile will not be used since time lapse mode
@@ -385,12 +385,12 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="timelapseqcif" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="384000"
              width="176"
              height="144"
-             frameRate="24" />
+             frameRate="30" />
 
        <!--
              The Audio part of the profile will not be used since time lapse mode
@@ -402,12 +402,12 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="timelapseqvga" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="767000"
              width="320"
              height="240"
-             frameRate="24" />
+             frameRate="30" />
 
       <!--
              The Audio part of the profile will not be used since time lapse mode
@@ -419,12 +419,12 @@
              channels="2" />
     </EncoderProfile>
 
-    <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="24">
+    <EncoderProfile quality="timelapse480p" fileFormat="mp4" duration="30">
       <Video codec="h264"
              bitRate="3078000"
              width="640"
              height="480"
-             frameRate="24" />
+             frameRate="30" />
 
       <!--
             The Audio part of the profile will not be used since time lapse mode
