@@ -5,7 +5,7 @@
 # system.prop for msm8916
 #
 DEVICE_PROVISIONED=1
-
+ro.chipname=APQ8016
 debug.sf.hw=1
 debug.egl.hw=1
 debug.composition.type=c2d
