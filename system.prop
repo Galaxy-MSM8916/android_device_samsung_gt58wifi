@@ -4,6 +4,10 @@
 #
 # system.prop for msm8916
 #
+# KSM and ZRAM
+ro.config.ksm=false
+ro.config.zram=false
+
 DEVICE_PROVISIONED=1
 ro.chipname=APQ8016
 debug.sf.hw=1
@@ -114,20 +118,9 @@ persist.hwc.enable_vds=1
 #
 ro.astcenc.astcsupport=1
 ro.mct.compressiontype=ETC1
-ro.config.tima=1
-ro.config.timaversion=3.0
 ro.radio.noril=yes
-dalvik.vm.heapstartsize=8m
-dalvik.vm.heapgrowthlimit=96m
-dalvik.vm.heapsize=256m
-dalvik.vm.heaptargetutilization=0.75
-dalvik.vm.heapminfree=2m
-dalvik.vm.heapmaxfree=8m
 keyguard.no_require_sim=true
 ro.carrier=unknown
-ro.com.google.clientidbase=android-samsung
-ro.error.receiver.default=com.samsung.receiver.error
-ro.security.icd.flagmode=single
 ro.vendor.extension_library=libqti-perfd-client.so
 persist.radio.apm_sim_not_pwdn=1
 persist.radio.sib16_support=1
@@ -135,22 +128,8 @@ security.mdpp.mass=skmm
 ro.security.vpnpp.ver=1.4
 ro.security.vpnpp.release=7.0
 ro.sec.fle.encryption=true
-ro.config.dha_cached_min=4
-ro.config.dha_empty_min=8
-ro.config.dha_cached_max=8
-ro.config.dha_empty_init=24
-ro.config.dha_empty_max=24
-ro.config.dha_lmk_scale=1.45
-ro.config.dha_th_rate=1.87
 ro.frp.pst=/dev/block/persistent
-ro.com.google.gmsversion=6.0_r6
-ro.build.selinux=1
-persist.sys.dalvik.vm.lib.2=libart
 dalvik.vm.isa.arm.variant=cortex-a53
-dalvik.vm.isa.arm.features=default
-o.config.iccc_version=1.0
-net.bt.name=Android
-dalvik.vm.stack-trace-file=/data/anr/traces.txt
 persist.gps.qc_nlp_in_use=1
 persist.loc.nlp_name=com.qualcomm.location
 ro.gps.agps_provider=1
