@@ -2,7 +2,7 @@
 # Inherit from common
 $(call inherit-product, device/samsung/gtel-common/lineage.mk)
 
-$(call inherit-product, device/samsung/gtelwifiue/full_gtelwifiue.mk)
+$(call inherit-product, device/samsung/gtelwifiue/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gtelwifiue
