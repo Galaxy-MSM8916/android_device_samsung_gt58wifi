@@ -9,9 +9,6 @@ LOCAL_PATH := device/samsung/gtelwifiue
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gtelwifiue/overlay
 
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/dt.img:dt.img
-
 # Audio configuration
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/audio/acdb/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
