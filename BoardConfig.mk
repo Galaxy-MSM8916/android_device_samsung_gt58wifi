@@ -6,9 +6,6 @@ LOCAL_PATH := device/samsung/gtelwifiue
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := gtelwifiue,samsung_sm_t560nu,t560nu
 
-# Init
-TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_gtelwifiue.cpp
-
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gtelwifi_usa_defconfig
 
