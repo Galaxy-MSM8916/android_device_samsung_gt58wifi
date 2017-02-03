@@ -2,7 +2,7 @@
 $(call inherit-product-if-exists, vendor/samsung/gtelwifiue/gtelwifiue-vendor.mk)
 
 # Inherit from common
-$(call inherit-product, device/samsung/gtel-common/device-common.mk)
+$(call inherit-product, device/samsung/gte-common/device-common.mk)
 
 LOCAL_PATH := device/samsung/gtelwifiue
 

@@ -1,5 +1,5 @@
 # Inherit from common
-include device/samsung/gtel-common/BoardConfigCommon.mk
+include device/samsung/gte-common/BoardConfigCommon.mk
 
 LOCAL_PATH := device/samsung/gtelwifiue
 

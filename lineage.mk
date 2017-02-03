@@ -1,6 +1,6 @@
 
 # Inherit from common
-$(call inherit-product, device/samsung/gtel-common/lineage.mk)
+$(call inherit-product, device/samsung/gte-common/lineage.mk)
 
 $(call inherit-product, device/samsung/gtelwifiue/device.mk)
 
