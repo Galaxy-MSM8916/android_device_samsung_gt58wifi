@@ -2,6 +2,7 @@
 $(call inherit-product-if-exists, vendor/samsung/gtelwifiue/gtelwifiue-vendor.mk)
 
 # Inherit from common
+USE_QCOM_MIXER_PATHS := 1
 $(call inherit-product, device/samsung/gte-common/device-common.mk)
 
 LOCAL_PATH := device/samsung/gtelwifiue
