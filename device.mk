@@ -7,6 +7,9 @@ $(call inherit-product, device/samsung/gte-common/device-common.mk)
 
 LOCAL_PATH := device/samsung/gtelwifiue
 
+# System properties
+-include $(LOCAL_PATH)/system_prop.mk
+
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gtelwifiue/overlay
 
