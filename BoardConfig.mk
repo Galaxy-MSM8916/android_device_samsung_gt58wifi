@@ -1,17 +1,17 @@
 # Inherit from common
 include device/samsung/gte-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gtelwifiue
+LOCAL_PATH := device/samsung/gt58wifi
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := gtelwifiue,samsung_sm_t560nu,t560nu
+TARGET_OTA_ASSERT_DEVICE := gt58wifi,gt58wifixx,SM-T350
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gtelwifi_usa_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_gt58wifi_eur_defconfig
 
 # Partition sizes
-BOARD_SYSTEMIMAGE_PARTITION_SIZE    := 2516582400
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 12767424512
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3145728000
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 12138278912
 
 #RIL
 BOARD_PROVIDES_LIBRIL := false

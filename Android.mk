@@ -1,4 +1,4 @@
-ifeq ($(TARGET_DEVICE),gtelwifiue)
+ifeq ($(TARGET_DEVICE),gt58wifi)
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 include $(call all-makefiles-under,$(LOCAL_PATH))

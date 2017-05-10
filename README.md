@@ -1,6 +1,6 @@
-# android_device_samsung_gtelwifiue
+# android_device_samsung_gt58wifi
 
-## Device tree for Samsung Galaxy Tab (E) SM-T560NU [gtelwifiue]
+## Device tree for Samsung Galaxy Tab (A) SM-T350 [gt58wifi]
 
 Basic   | Spec Sheet
 -------:|:-------------------------
@@ -12,7 +12,8 @@ Shipped Android Version | 6.0.1
 Storage | 16 GB
 MicroSD | Up to 256 GB
 Battery | 7300 mAh
-Display | 1280 x 800 (qHD), 9.6" (243.4mm)
+Battery | 6000 mAh
+Display | 1024 x 768, 8.0" (246.38mm)
 Rear Camera  | 5.0 MP
 Front Camera | 2.0 MP
 

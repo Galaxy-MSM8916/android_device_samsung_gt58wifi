@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-export DEVICE=gtelwifiue
+export DEVICE=gt58wifi
 export DEVICE_COMMON=gte-common
 export VENDOR=samsung
 
