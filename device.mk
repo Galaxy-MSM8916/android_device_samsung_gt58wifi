@@ -13,12 +13,6 @@ LOCAL_PATH := device/samsung/gtelwifiue
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gtelwifiue/overlay
 
-# Media configurations
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/configs/media/media_codecs.xml:system/etc/media_codecs.xml \
-	$(LOCAL_PATH)/configs/media/media_codecs_performance.xml:system/etc/media_codecs_performance.xml \
-	$(LOCAL_PATH)/configs/media/media_profiles.xml:system/etc/media_profiles.xml
-
 # Disable RIL
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 	ro.carrier=wifi-only \
