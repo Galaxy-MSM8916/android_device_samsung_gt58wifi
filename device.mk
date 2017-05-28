@@ -12,14 +12,3 @@ LOCAL_PATH := device/samsung/gtelwifiue
 
 # Common overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/gtelwifiue/overlay
-
-# Disable RIL
-PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-	ro.carrier=wifi-only \
-	ro.radio.noril=1
-
-# Properties
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.product.model=SM-T560NU \
-	ro.product.device=gtelwifiue
-
