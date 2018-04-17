@@ -1,4 +1,4 @@
-# Samsung Package Version T560NUUEU1BPI3_T560NUXAC1BPI3_XAC (unless otherwise specified and/or tagged)
+# Samsung Package Version T550XXU1CQL5_T550OJV1CQK3_TUR (unless otherwise specified and/or tagged)
 
 # ACDBs
 etc/Bluetooth_cal.acdb
@@ -9,6 +9,21 @@ etc/Hdmi_cal.acdb
 etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
+# Audio
+lib/hw/audio.primary.msm8916.so
+lib/libaudio_soundtrigger.so
+lib/libSamsungPreProcess.so
+lib/libSamsungPostProcess.so
+lib/libsamsungVoipResampler.so
+lib/libsamsungRecord.so
+lib/libsamsungSoundbooster_ext.so
+lib/lib_soundaliveresampler.so
+lib/lib_SamsungRec_V04013.so
+lib/libsecaudioinfo.so
+lib/lib_SoundBooster_ver610.so
+lib/lib_SoundAlive_SRC384_ver300.so
+lib/libfloatingfeature.so
+
 # Camera
 lib/hw/camera.msm8916.so:lib/hw/camera.vendor.msm8916.so
 lib/libaec_algo_front.so
@@ -16,7 +31,7 @@ lib/libaec_algo_rear.so
 lib/libaf_algo_rear.so
 lib/libAl_Awb.so
 lib/libAl_Awb_Sp.so
-lib/libawb_algo_front_al.so
+lib/libawb_algo_front.so
 lib/libawb_algo_rear_al.so
 lib/libmmcamera2_stats_algorithm.so
 lib/libmmcamera_cac2_lib_13M.so
@@ -34,29 +49,20 @@ vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera2_vpe_module.so
 vendor/lib/libmmcamera2_wnr_module.so
-vendor/lib/libmmcamera_dw_dw9806b_eeprom.so
-vendor/lib/libmmcamera_dw_dw9807_eeprom.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_hdr_lib.so
 vendor/lib/libmmcamera_image_stab.so
 vendor/lib/libmmcamera_imglib.so
-vendor/lib/libmmcamera_lsi_s5k5e3yx_eeprom.so
-vendor/lib/libmmcamera_m24128s_eeprom.so
 vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_pdafcamif.so
-vendor/lib/libmmcamera_rohm_brce064gwz_eeprom.so
-vendor/lib/libmmcamera_s5k4ecgx.so
 vendor/lib/libmmcamera_silicon_sr544_eeprom.so
-vendor/lib/libmmcamera_silicon_sr552_eeprom.so
 vendor/lib/libmmcamera_sr200pc20.so
-vendor/lib/libmmcamera_sunny_p12v01m_eeprom.so
-vendor/lib/libmmcamera_sunny_p5v23c_eeprom.so
+vendor/lib/libmmcamera_sr544.so
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
-vendor/lib/libmmcamera_zc533_eeprom.so
 vendor/lib/libmmipl.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmqjpeg_codec.so
+vendor/lib/libmmqjpeg_interface.so
 vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegenc.so
 
@@ -76,4 +82,3 @@ vendor/lib/libqmi.so
 
 # Sensors
 lib/hw/sensors.msm8916.so
-vendor/lib/libcalmodule_gyroscope.so
