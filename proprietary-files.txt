@@ -23,6 +23,7 @@ lib/libsecaudioinfo.so
 lib/lib_SoundBooster_ver610.so
 lib/lib_SoundAlive_SRC384_ver300.so
 lib/libfloatingfeature.so
+lib/libtfa9895.so
 
 # Camera
 lib/hw/camera.msm8916.so:lib/hw/camera.vendor.msm8916.so
@@ -62,7 +63,7 @@ vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmipl.so
 vendor/lib/libmmjpeg.so
-vendor/lib/libmmqjpeg_interface.so
+vendor/lib/libmmqjpeg_codec.so
 vendor/lib/liboemcamera.so
 vendor/lib/libqomx_jpegenc.so
 
@@ -79,6 +80,7 @@ vendor/lib/libqmi_csi.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 vendor/lib/libqmi.so
+vendor/lib/libsmemlog.so
 
 # Sensors
 lib/hw/sensors.msm8916.so
